@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="631.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-2.0" prefHeight="429.0" prefWidth="624.0">
+         <children>
+            <Label alignment="CENTER" layoutX="273.0" layoutY="14.0" prefHeight="27.0" prefWidth="79.0" text="Biseccion" textAlignment="CENTER" textFill="#ab419d">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <Label layoutX="90.0" layoutY="391.0" text="Resultado:" textFill="#ab419d">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="result" layoutX="183.0" layoutY="391.0" prefHeight="24.0" prefWidth="143.0" textFill="#ab419d">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</fx:root>

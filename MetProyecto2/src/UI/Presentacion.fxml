@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="186.0" layoutY="64.0" text="UNIVERSIDAD TECNOLOGICA DE PANAMA" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="160.0" layoutY="98.0" text="LIC. EN INGENIERIA DE SISTEMAS COMPUTACIONALES" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="191.0" layoutY="153.0" text="METODOS NUMERICOS PARA INGENIEROS" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="141.0" layoutY="81.0" text="FACULTAD DE INGENIERIA DE SISTEMAS COMPUTACIONALES" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="128.0" layoutY="115.0" text="DEPARTAMENTO DE COMPUTACION Y SIMULACION DE SISTEMAS" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="267.0" layoutY="200.0" text="PROYECTO N2" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="175.0" layoutY="244.0" text="SISTEMAS DE ECUACIONES LINEALES (DOOLITLE)" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="206.0" layoutY="261.0" text="RAICES DE FUNCIONES ALGEBRAICAS" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="225.0" layoutY="292.0" text="ING. JACQUELINE S. DE CHING" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="232.0" layoutY="328.0" text="FRANKLIN PABLU 8-955-2298" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="246.0" layoutY="345.0" text="ERIC MASON 3-747-343" textFill="#562b82">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

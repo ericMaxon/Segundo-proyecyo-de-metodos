@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="6.0" layoutY="6.0" prefHeight="388.0" prefWidth="587.0">
+         <children>
+            <Label alignment="CENTER" layoutX="259.0" layoutY="14.0" text="Secante" textFill="#5b2779">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="result" alignment="CENTER" layoutX="184.0" layoutY="344.0" prefHeight="30.0" prefWidth="119.0" textFill="#5b2779">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="76.0" layoutY="344.0" text="Resultado: " textFill="#5b2779">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</fx:root>

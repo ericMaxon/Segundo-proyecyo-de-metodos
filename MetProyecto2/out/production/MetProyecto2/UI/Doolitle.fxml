@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="342.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="263.0" prefWidth="342.0">
+         <children>
+            <Button alignment="CENTER" layoutX="105.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#MatrizPrincipal" prefHeight="29.0" prefWidth="133.0" text="Matriz Principal" textFill="#79338f">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect></Button>
+            <Button alignment="CENTER" layoutX="83.0" layoutY="117.0" mnemonicParsing="false" onMouseClicked="#MatrizInf" text="Matriz Triangular inferior" textFill="#79338f">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect></Button>
+            <Button alignment="CENTER" layoutX="80.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#MatrizSup" text="Matriz Triangular Superior" textFill="#79338f">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect></Button>
+            <Button alignment="CENTER" layoutX="114.0" layoutY="203.0" mnemonicParsing="false" onMouseClicked="#Resultado" prefHeight="29.0" prefWidth="115.0" text="Resultado " textFill="#79338f">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect></Button>
+            <Label alignment="CENTER" layoutX="101.0" layoutY="34.0" prefHeight="25.0" prefWidth="140.0" text="METODO DOOLITLE" textAlignment="CENTER" textFill="#79338f">
+               <font>
+                  <Font name="Comic Sans MS" size="13.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect></Label>
+         </children>
+      </Pane>
+   </children>
+</fx:root>

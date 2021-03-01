@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="437.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="143.0" layoutY="14.0" prefHeight="25.0" prefWidth="192.0" text="Insercion de coeficientes" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="151.0" layoutY="39.0" prefHeight="25.0" prefWidth="137.0" text="Funcion a evaluar" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="112.0" layoutY="64.0" prefHeight="25.0" prefWidth="30.0" text="x^3" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inicio" layoutX="52.0" layoutY="136.0" />
+      <TextField fx:id="fin" layoutX="239.0" layoutY="136.0" />
+      <Label layoutX="31.0" layoutY="228.0" prefHeight="17.0" prefWidth="389.0" text="Nota: se trabajara esta funcion para ambos metodos de raices" textFill="#0000006f">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="108.0" text="Inicio" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="108.0" text="Fin" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="317.0" layoutY="203.0" mnemonicParsing="false" onAction="#enviarData" text="Enviar datos" textFill="#542c96" />
+      <TextField fx:id="C1" layoutX="69.0" layoutY="64.0" prefHeight="17.0" prefWidth="38.0" />
+      <TextField fx:id="C2" layoutX="164.0" layoutY="64.0" prefHeight="17.0" prefWidth="38.0" />
+      <Label alignment="CENTER" layoutX="207.0" layoutY="64.0" prefHeight="25.0" prefWidth="30.0" text="x^2" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="C3" layoutX="261.0" layoutY="64.0" prefHeight="17.0" prefWidth="38.0" />
+      <Label alignment="CENTER" layoutX="295.0" layoutY="64.0" prefHeight="25.0" prefWidth="30.0" text="x" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Ind" layoutX="350.0" layoutY="64.0" prefHeight="17.0" prefWidth="38.0" />
+      <Label alignment="CENTER" layoutX="141.0" layoutY="64.0" prefHeight="25.0" prefWidth="20.0" text="+" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="239.0" layoutY="64.0" prefHeight="25.0" prefWidth="20.0" text="+" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="325.0" layoutY="64.0" prefHeight="25.0" prefWidth="20.0" text="+" textFill="#542c96">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>
